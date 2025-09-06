@@ -18,8 +18,6 @@ emprestar_livro(prof1, livro2)
 for i in range(3):
     emprestar_livro(aluno1, Livro(f"Livro Extra {i}", "Autor Teste"))
 
-# Devolver livro
 devolver_livro(aluno1, livro1)
 
-# Relatório
 relatorio_emprestimos(usuarios)
